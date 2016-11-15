@@ -31,24 +31,6 @@
         android:textStyle="italic"
         android:textColor="@android:color/white"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/name"
-        android:layout_alignBaseline="@id/name"
-        android:text="Location: ShangHai"
-        android:padding="16dp"
-        android:textSize="15sp"
-        android:textColor="@android:color/white"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/time"
-        android:padding="16dp"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        android:text="MOBILE: 15000000001"/>
 
     <TextView
         android:id="@+id/time"
@@ -58,4 +40,25 @@
         android:text="10:00 AM - 4:00 AM"
         android:layout_alignParentBottom="true"
         android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/time"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="MOBILE: 15000000001"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/mobile"
+        android:text="Location: ShangHai"
+        android:paddingLeft="16dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/holo_green_light"/>
+
+
 </RelativeLayout>
